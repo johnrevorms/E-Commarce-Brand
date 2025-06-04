@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DESTINASI</title>
     <link rel="stylesheet" href="{{ asset('css/styles3.css') }}" />
+    <script src="https://cdn.tailwindcss.com/3.4.1"></script>
     <style>
       .destination-grid {
         display: flex;

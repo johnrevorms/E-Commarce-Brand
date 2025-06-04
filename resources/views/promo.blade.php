@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DESTINASI</title>
     <link rel="stylesheet" href="{{ asset('css/styles4.css') }}" />
+    <link rel="stylesheet" href="{{ asset('style/pratikum5.css') }}">
+    <script src="https://cdn.tailwindcss.com/3.4.1"></script>
   </head>
   <body>
     <header>
@@ -21,11 +24,29 @@
       </div>
     </header>
 
+
+
     <form>
-      <div class="container">
-        <a>apakah</a>
+
+      <div class="container" >
+        <h1>Ini Judul Berwarna Merah</h1>
+
+
+        <!-- Gambar Senja -->
+        <div class="image-wrapper">
+          <img src="{{ asset('images/senja.jpg') }}" alt="Senja" style="width: 300px;" />
+        </div>
+
+        <!-- Gambar Sunset -->
+        <div class="image-wrapper">
+          <img src="{{ asset('images/sunset.jpg') }}" alt="Sunset" style="width: 300px;" />
+        </div>
       </div>
     </form>
+
+    <div class="bg-blue-500 p-4 m-4 text-white">
+     Ini kotak dengan Tailwind
+    </div>
 
     <footer class="footer">
       <div class="container">
